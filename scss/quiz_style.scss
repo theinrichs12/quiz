@@ -1,0 +1,89 @@
+/* Quiz styles */
+//SASS Variables
+$background: aliceblue;
+$mainFont: sans-serif;
+$mainMargin: 10px auto;
+$leftMargin: 50px;
+$padding: 10px;
+
+header {
+    border: 2px solid #064277;
+    border-radius: 20px;
+    margin: $mainMargin;
+    padding: $padding;
+    background-color: $background;
+    text-align: center;
+
+
+    body {
+        width: 600px;
+        margin: auto;
+        font-family:$mainFont;
+        font-size: 1em;
+        font-style:oblique;
+        background-color: #dadadb
+    }
+
+
+    h1 {
+        color:#58a0e0;
+    }
+
+    #content {
+        border: 2px solid #064277;
+        border-radius: 20px;
+        margin: $mainMargin;
+        padding: $padding;
+        background-color: $background;
+
+
+        #list{s
+            border: 2px solid #064277;
+            border-radius: 20px;
+            background-color: $background;
+        }
+
+        h2 {
+            color: #064277;
+        }
+
+        h3 {
+            margin-left: $leftMargin;
+            color:#58a0e0
+        }
+
+        ul{
+            margin-left: $leftMargin;
+        }
+
+        p{
+            font-family: $mainFont;
+            font-style:normal;
+        }
+
+
+        .samplepara {
+            border: 3px solid #58a0e0;
+            border-radius: 5px;
+            padding: $padding;
+            background-color: white;
+        }
+    }
+
+    footer {
+        border: 2px solid #064277;
+        border-radius: 20px;
+        margin: $mainMargin;
+        padding: $padding;
+        background-color: $background;
+
+
+        #footer {
+            font-size: .75em;
+            font-style:italic;
+            font-weight: bold;
+            color: #064277;
+            text-align: center;
+        }
+    }
+}
